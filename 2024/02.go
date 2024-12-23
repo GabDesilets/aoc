@@ -124,7 +124,7 @@ func part2(unsafeLevels [][]int) {
 
 			if isSafe(newLevels) {
 				safeCount++
-				//fmt.Println(newLevels)
+				fmt.Println(newLevels)
 				break
 			} else {
 				//fmt.Println("Unsafe levels:", levels)
